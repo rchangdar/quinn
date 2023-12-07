@@ -28,13 +28,13 @@ python = ">=3.7,<4.0"
 optional = false
 
 [tool.poetry.group.docs]
-optional = true
+optional = false
 
 [tool.poetry.group.testing]
-optional = true
+optional = false
 
 [tool.poetry.group.linting]
-optional = true
+optional = false
 
 [tool.poetry.group.development.dependencies]
 pyspark = ">2"
